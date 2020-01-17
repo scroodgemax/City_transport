@@ -9,7 +9,11 @@ public class Route {
     private String endOfRoute;
     private int timeOfRoute;
 
-    public Route(){
+    public Route(int numberRoute, String startOfRoute, String endOfRoute, int timeOfRoute){
+        this.numberRoute = numberRoute;
+        this.startOfRoute = startOfRoute;
+        this.endOfRoute = endOfRoute;
+        this.timeOfRoute = timeOfRoute;
         arrayBuses = new ArrayList<>(5);
         arrayTrolleybuses = new ArrayList<>(5);
         arrayTrams = new ArrayList<>(5);
