@@ -14,6 +14,15 @@ public class main {
 
             }
         }
+        int tr = 1;
+        while (tr!=0){
+            System.out.println("Enter 1 if you want to add transport to the route or 0 to quit");
+            tr = scanner.nextInt();
+            if (tr==1){
+                depo.addTransportOnRoute();
+
+            }
+        }
 
     }
 }
